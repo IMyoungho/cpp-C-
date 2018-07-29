@@ -13,11 +13,7 @@ int main()
     int figure[number];
     memset(figure, 0, number);
     cout << "   >> Please enter numbers = ";
-    int times{0};
-    for(int i=0; i<number; i++){
-        cin >> figure[i];
-        times+=i;
-    }
+    
     int temp{0};
     for(int i=0; i<temp_number; i++){
             if(i==temp_number-1){
