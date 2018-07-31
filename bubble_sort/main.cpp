@@ -14,6 +14,9 @@ int main()
     memset(figure, 0, number);
     cout << "   >> Please enter numbers = ";
     
+    for(int i=0; i<number; i++)
+    cin >> figure[i];
+    
     int temp{0};
     for(int i=0; i<temp_number; i++){
             if(i==temp_number-1){
